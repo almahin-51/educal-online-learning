@@ -1,0 +1,42 @@
+.header-container {
+    background-color: #b8dde3;
+    padding: 0 90px;
+    z-index: -1;
+}
+.header-img {
+    position: relative;
+    z-index: 1;
+}
+.header-img {
+    background-image: url(../../image/hero-shape-purple.png);
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-title {
+    font-size: 55px;
+    color: #0e1133;
+}
+
+.title-bttom {
+    color: #0e1133;
+}
+
+.header-input{
+    position: relative;
+    width: 60%;
+    margin-top: 40px;
+}
+.header-input input{
+    padding: 15px;
+    width: 100%;
+    border-color: transparent;
+}
+.icon {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-size: 25px;
+}
