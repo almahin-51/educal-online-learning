@@ -7,7 +7,7 @@ const Home = () => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('./fakeData.JSON')
+        fetch('./fakeData.json')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, []);
