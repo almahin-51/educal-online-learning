@@ -1,0 +1,124 @@
+.contact-container {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    background-image: url(https://bit.ly/3Fgqeab);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 3, 32, 0.6);
+}
+.contact-container h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0 auto;
+    transform: translateY(340%);
+    margin-left: 90px;
+}
+
+.cantact-input .one {
+    width: 49%;
+}
+.cantact-input .two {
+    width: 49%;
+}
+.cantact-input .three {
+    width:99%;
+    margin-right: 10px;
+}
+
+.cantact-input input, textarea{
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px 5px 0;
+}
+.cantact-input textarea {
+    width: 99%;
+}
+
+.contact-head h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0e1133;
+}
+.contact-head p {
+    color: #53545b;
+}
+.address svg {
+    color: #2b4eff;
+    font-size: 18px;
+}
+.address h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.follow h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-icons {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.social-container div:nth-child(1) {
+    transition: all .3s;
+    background-color: white;
+    border-color: #285da1;
+}
+.social-container div:nth-child(1):hover {
+    background-color: #285da1;
+    border: 2px solid transparent;
+}
+.social-container div:nth-child(1) svg {
+    color: #285da1;
+}
+.social-container div:nth-child(1):hover svg {
+    color: white;
+}
+.social-container div:nth-child(2) {
+    background-color: white;
+    border-color: #03a9f4;
+    transition: all .3s;
+}
+.social-container div:nth-child(2):hover {
+    background-color: #03a9f4;
+    border: 2px solid transparent;
+}
+.social-container div:nth-child(2) svg {
+    color: #03a9f4;
+}
+.social-container div:nth-child(2):hover svg {
+    color: white;
+}
+.social-container div:nth-child(3) {
+    background-color: white;
+    border-color: #d2173f;
+    transition: all .3s;
+}
+.social-container div:nth-child(3):hover {
+    background-color: #d2173f;
+    border: 2px solid transparent;
+}
+.social-container div:nth-child(3):hover svg {
+    color: white;
+}
+.social-container div:nth-child(3) svg {
+    color: #d2173f;
+}

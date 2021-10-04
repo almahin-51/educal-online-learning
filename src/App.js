@@ -4,6 +4,10 @@ import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Nav from './Component/Nav/Nav';
 import Service from './Component/Service/Service';
+import './App.css';
+import Contact from './Component/Contact/Contact';
+import colorLogo from './image/logo.png';
+import logo from './image/logo-2.png';
 
 function App() {
   return (
@@ -12,22 +16,23 @@ function App() {
       <Router>
         <Switch>
           <Route path="/home">
-            <Nav></Nav>
+            <Nav color="text-black" cl={colorLogo}></Nav>
             <Header></Header>
             <Home></Home>
             <Footer></Footer>
           </Route>
           <Route path="/service">
-            <Nav></Nav>
+            <Nav color="text-black" cl={colorLogo}></Nav>
             <Service></Service>
             <Footer></Footer>
           </Route>
           <Route path="/about">
-            <Nav></Nav>
+            <Nav color="text-black" cl={colorLogo}></Nav>
             <Footer></Footer>
           </Route>
           <Route path="/contact">
-            <Nav></Nav>
+            <Nav color="text-light" cl={logo}></Nav>
+            <Contact></Contact>
             <Footer></Footer>
           </Route>
         </Switch>

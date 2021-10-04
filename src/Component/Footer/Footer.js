@@ -15,7 +15,7 @@ const Footer = () => {
                     <Col xm="6" md="4">
                         <img src={logo} alt="" />
                         <p className="text-color my-4">Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
-                        <div className="d-flex social-container">
+                        <div className="d-flex socialContainer">
                             <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faFacebookF} /></div>
                             <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faTwitter} /></div>
                             <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faPinterest} /></div>

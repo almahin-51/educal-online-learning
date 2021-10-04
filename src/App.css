@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+#contact{
+  display:none !important;
+  color: white !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

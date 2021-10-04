@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 import { faArrowRight, faStar, faBook } from '@fortawesome/free-solid-svg-icons';
 import './Course.css';
 

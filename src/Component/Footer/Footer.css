@@ -49,39 +49,39 @@
     cursor: pointer;
 }
 
-.social-container div:nth-child(1) {
+.socialContainer div:nth-child(1) {
     background-color: #285da1;
     border: 2px solid transparent;
     transition: all .3s;
 }
-.social-container div:nth-child(1):hover {
+.socialContainer div:nth-child(1):hover {
     background-color: white;
     border-color: #285da1;
 }
-.social-container div:nth-child(1):hover svg {
+.socialContainer div:nth-child(1):hover svg {
     color: #285da1;
 }
-.social-container div:nth-child(2) {
+.socialContainer div:nth-child(2) {
     background-color: #03a9f4;
     border: 2px solid transparent;
     transition: all .3s;
 }
-.social-container div:nth-child(2):hover {
+.socialContainer div:nth-child(2):hover {
     background-color: white;
     border-color: #03a9f4;
 }
-.social-container div:nth-child(2):hover svg {
+.socialContainer div:nth-child(2):hover svg {
     color: #03a9f4;
 }
-.social-container div:nth-child(3) {
+.socialContainer div:nth-child(3) {
     background-color: #d2173f;
     border: 2px solid transparent;
     transition: all .3s;
 }
-.social-container div:nth-child(3):hover {
+.socialContainer div:nth-child(3):hover {
     background-color: white;
     border-color: #d2173f;
 }
-.social-container div:nth-child(3):hover svg {
+.socialContainer div:nth-child(3):hover svg {
     color: #d2173f;
 }
