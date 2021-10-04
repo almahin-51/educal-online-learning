@@ -3,6 +3,7 @@ import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Nav from './Component/Nav/Nav';
+import Service from './Component/Service/Service';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </Route>
           <Route path="/service">
             <Nav></Nav>
+            <Service></Service>
             <Footer></Footer>
           </Route>
           <Route path="/about">

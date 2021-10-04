@@ -8,7 +8,7 @@ const Course = (props) => {
     const { img, serviceName, lesson, rate, instactorName, instactorImg, cost } = props.course;
 
     return (
-        <Col xm={6} md={4} className="g-4">
+        <Col xm={6} md={4} className="g-4 my-4">
             <Card className=" my-card">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
