@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
+import Home from './Component/Home/Home';
 import Nav from './Component/Nav/Nav';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Route path="/home">
             <Nav></Nav>
             <Header></Header>
+            <Home></Home>
             <Footer></Footer>
           </Route>
           <Route path="/service">

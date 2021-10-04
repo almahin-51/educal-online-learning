@@ -1,0 +1,12 @@
+.home h1{
+    font-size: 45px;
+    color: #0e1133;
+    font-weight: 700;
+}
+.home h1 span {
+    display: block;
+}
+
+.home p{
+    color: #828389;
+}

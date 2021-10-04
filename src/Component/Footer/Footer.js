@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import logo from '../../image/logo.png';
 import { faFacebookF, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
-import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Footer.css';
 import { Link } from 'react-router-dom';
@@ -15,10 +15,10 @@ const Footer = () => {
                     <Col xm="6" md="4">
                         <img src={logo} alt="" />
                         <p className="text-color my-4">Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
-                        <div>
-                            <FontAwesomeIcon className="social-icon" icon={faFacebookF} />
-                            <FontAwesomeIcon className="social-icon" icon={faTwitter} />
-                            <FontAwesomeIcon className="social-icon" icon={faPinterest} />
+                        <div className="d-flex social-container">
+                            <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faFacebookF} /></div>
+                            <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faTwitter} /></div>
+                            <div className="social-icons"><FontAwesomeIcon className="social-icon" icon={faPinterest} /></div>
                         </div>
                     </Col>
                     <Col xm="6" md="2">
@@ -48,7 +48,7 @@ const Footer = () => {
                         <p className="fw-bold mb-2 fs-5 mb-3">Subscribe</p>
                         <div className="input-fluid">
                             <input type="text" placeholder="Your email address  "/>
-                            <Button><FontAwesomeIcon className="fs-4" icon={faArrowAltCircleRight}/></Button>
+                            <Button><FontAwesomeIcon className="fs-4" icon={faArrowRight}/></Button>
                         </div>
                         <p className="text-color mt-4"><small>Get the latest news and updates right at your inbox.</small></p>
                     </Col>
