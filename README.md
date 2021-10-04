@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Educal-Online Learning Platform
 
 This Is a Educational Learning Project [Educal - Online Learning Platform](https://educal-online-learning-platforme.netlify.app/).
 
