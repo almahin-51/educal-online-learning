@@ -1,0 +1,40 @@
+.social-icon {
+    background-color: blue;
+    border-radius: 3px;
+    color: black;
+}
+
+
+.links{
+    padding: 0;
+    margin: 0;
+}
+.links li {
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #53545b;
+}
+.text-color {
+    color: #53545b;
+    width: 70%;
+}
+.input-fluid input{
+    width: 100%;
+    border:1px solid #c0c0c0;
+    padding: 15px 10px;
+}
+.input-fluid {
+    position: relative;
+    width:80%;
+}
+.input-fluid button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    border-radius: 0%;
+}
