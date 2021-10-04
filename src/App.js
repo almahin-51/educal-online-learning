@@ -9,6 +9,8 @@ import Contact from './Component/Contact/Contact';
 import colorLogo from './image/logo.png';
 import logo from './image/logo-2.png';
 import About from './Component/About/About';
+import Error from './Component/NotFound/Error';
+
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
             <Nav color="text-light" cl={logo}></Nav>
             <Contact></Contact>
             <Footer></Footer>
+          </Route>
+          <Route path="*">
+            <Error></Error>
           </Route>
         </Switch>
 

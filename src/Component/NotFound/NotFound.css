@@ -1,0 +1,10 @@
+.error-page h1{
+    font-size: 70px;
+    color: #0e1133;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.error-page p {
+    font-size: 20px;
+    color: #53545b;
+}

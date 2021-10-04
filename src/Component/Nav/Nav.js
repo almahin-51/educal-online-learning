@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = (props) => {
@@ -10,12 +10,28 @@ const Nav = (props) => {
                 <img src={props.cl} alt="" />
             </div>
             <div className="nav align-items-center">
-                <Link className={props.color} to="/home">Home</Link>
-                <Link className={props.color} to="/service">Services</Link>
-                <Link className={props.color} to="/about">About</Link>
-                <Link className={props.color} to="/contact">Contact</Link>
+                <NavLink to="/faq"
+                    activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }} className={props.color} to="/home">Home</NavLink>
+                <NavLink to="/faq"
+                    activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }} className={props.color} to="/service">Services</NavLink>
+                <NavLink to="/faq"
+                    activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }} className={props.color} to="/about">About</NavLink>
+                <NavLink to="/faq"
+                    activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                    }} className={props.color} to="/contact">Contact</NavLink>
                 
-                <Button variant="danger" className="px-3">Sign up</Button>
+                <Button variant="primary" className="px-3">Sign up</Button>
             </div>
         </div>
     );
