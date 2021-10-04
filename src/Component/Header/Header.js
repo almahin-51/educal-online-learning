@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Header = () => {
     return (
         <div className="header-container">
-            <Container className="m-0 p-0">
+            <Container>
                 <Row className="align-items-center">
                     <Col xm="12" md="6">
                         <h1 className="header-title mb-3 fw-bold">Educal online learning Platform</h1>

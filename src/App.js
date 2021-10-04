@@ -8,6 +8,7 @@ import './App.css';
 import Contact from './Component/Contact/Contact';
 import colorLogo from './image/logo.png';
 import logo from './image/logo-2.png';
+import About from './Component/About/About';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
             <Footer></Footer>
           </Route>
           <Route path="/about">
-            <Nav color="text-black" cl={colorLogo}></Nav>
+            <Nav color="text-light" cl={logo}></Nav>
+            <About></About>
             <Footer></Footer>
           </Route>
           <Route path="/contact">
